@@ -1,7 +1,7 @@
 document.getElementById("form").addEventListener("submit", (e) => {
     e.preventDefault();
 
-    let currentpassword = 123456;   
+    let currentpassword = "123456";   
 
     let oldpassword = document.getElementById("oldpassword").value;
     let newpassword = document.getElementById("newpassword").value;
@@ -22,3 +22,4 @@ document.getElementById("form").addEventListener("submit", (e) => {
         status.textContent = "password update";
     }
 });
+
