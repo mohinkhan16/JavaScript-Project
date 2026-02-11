@@ -14,7 +14,7 @@ live link :-
 live link :-
 
 6.Age Eligibility Checker
-live link :-
+live link :-https://codepen.io/Mohin-Pathan/pen/dPXwVOm
 
 7.Factorial Number
 live link :-
