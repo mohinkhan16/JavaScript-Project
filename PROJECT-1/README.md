@@ -1,11 +1,11 @@
 1.Even or Odd
-live link :-
+live link :-https://codepen.io/Mohin-Pathan/pen/dPXwVOm
 
 2.Positive \ Negative \ Zero Checker
 live link :-https://codepen.io/Mohin-Pathan/pen/dPXwVOm
 
 3.Largest Number Finder
-live link :-https://codepen.io/Mohin-Pathan/pen/dPXwVOm
+live link :-
 
 4.Leap Year Checker
 live link :-
