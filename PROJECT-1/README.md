@@ -2,10 +2,10 @@
 live link :-
 
 2.Positive \ Negative \ Zero Checker
-live link :-
+live link :-https://codepen.io/Mohin-Pathan/pen/dPXwVOm
 
 3.Largest Number Finder
-live link :-
+live link :-https://codepen.io/Mohin-Pathan/pen/dPXwVOm
 
 4.Leap Year Checker
 live link :-
