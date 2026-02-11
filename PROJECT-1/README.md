@@ -1,8 +1,10 @@
 1.Even or Odd
-live link :-https://codepen.io/Mohin-Pathan/pen/dPXwVOm
+
+live link :-https://codepen.io/Mohin-Pathan/pen/azZPVZa
 
 2.Positive \ Negative \ Zero Checker
-live link :-https://codepen.io/Mohin-Pathan/pen/dPXwVOm
+
+live link :-https://codepen.io/Mohin-Pathan/pen/qENLVag
 
 3.Largest Number Finder
 live link :-
@@ -14,6 +16,7 @@ live link :-
 live link :-
 
 6.Age Eligibility Checker
+
 live link :-https://codepen.io/Mohin-Pathan/pen/dPXwVOm
 
 7.Factorial Number
