@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp Convert</title>
+    <style>
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form{
+    background: #ffffff;
+    padding: 35px 30px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    width: 320px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+label{
+    display: block;
+    margin: 12px 0 6px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+}
+
+input, select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus, select:focus{
+    border-color: #667eea;
+    box-shadow: 0 0 6px rgba(102,126,234,0.5);
+}
+
+button{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #5a67d8;
+}
+
+#result{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+}
+    </style>
+</head>
+<body>
+
+<form id="form">
+
+    <h1>Temperature Convert</h1>
+
+    <input 
+        type="number"
+        id="number"
+        placeholder="Enter a number"
+        required
+    />
+<br>
+<label for="choice">Enter a choice</label>
+<br>
+    <select id="choice">
+        <option value="CToF">Celsius-Fahrenheit</option>
+        <option value="FToC">Fahrenheit-Celsius</option>
+    </select>
+<br>
+    <button type="submit" id="submit">Click</button>
+
+    <p id="result"></p>
+
+</form>
+
+<script src="script.js"></script>
+
+</body>
+</html>

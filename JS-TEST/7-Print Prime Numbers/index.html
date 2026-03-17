@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime number</title>
+    <style>
+
+        body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 80px;
+    background: #eef2ff;
+}
+
+h1 {
+    color: #4f46e5;
+}
+
+input {
+    padding: 10px;
+    width: 220px;
+    border: 2px solid #4f46e5;
+    border-radius: 6px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #6366f1;
+}
+
+button {
+    padding: 10px 18px;
+    margin-left: 10px;
+    background: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3730a3;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #111827;
+}
+    </style>
+</head>
+<body>
+    <form id="form">
+    <h1>Prime Number</h1>
+    
+    <input type="number" id="number"
+    placeholder="Enter a number" required/>
+
+    <button type="submit" id="submit">Click</button>
+
+    <p id="result"></p>
+</form>
+
+    <script src="script.js"></script>
+</body>
+</html>
